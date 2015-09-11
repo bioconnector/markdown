@@ -11,3 +11,7 @@ This isn't meant to be a comprehensive guide to either Markdown or RMarkdown. Yo
 ## Download the PDF
 
 [Click here to download a PDF of this guide.](assets/markdown-rmarkdown-reference.pdf)
+
+## Source
+
+[The source is on GitHub.](https://github.com/bioconnector/markdown) 
