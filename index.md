@@ -1,18 +1,4 @@
-## Headers
-
-```
-# H1
-## H2
-### H3
-#### H4
-##### H5
-```
-
-# H1
-## H2
-### H3
-#### H4
-##### H5
+# Markdown Reference
 
 ## Emphasis
 
@@ -30,6 +16,42 @@ Bold with **double asterisks**.
 
 Combined emphasis with **asterisks and _underscores_**.
 
+
+## Section headings
+
+```
+# Header 1
+
+A single # results in a top-level major heading.
+
+## Header 2
+
+Two ##s results in a sub-heading.
+
+### Header 3
+
+Three ###s results in a sub-sub-heading.
+
+#### Header 4
+
+And so on...
+```
+
+# Header 1
+
+A single # results in a top-level major heading.
+
+### **Header 2**
+
+Two ##s results in a sub-heading.
+
+### Header 3
+
+Three ###s results in a sub-sub-heading.
+
+#### Header 4
+
+And so on...
 
 ## Lists
 
@@ -105,10 +127,10 @@ Bare URLs in angle brackets get turned into links <https://www.google.com>.
 ## Images
 
 ```
-![Caption text (if supported)](img/xkcd.png)
+![Caption text (if supported)](img/rmarkdown-workflow.png)
 ```
 
-![Caption text (if supported)](img/xkcd.png)
+![Caption text (if supported)](img/rmarkdown-workflow.png)
 
 
 ## Code and Syntax Highlighting
@@ -135,16 +157,32 @@ If you don't specify, there will be no syntax highlighting applied.
 
 ### Code blocks with syntax highlighting
 
-    ```python
-    # You can only get highlighting with fences
+#### E.g., R code 
+
+    ```r
     # Just specify the language after the opening fence.
+    library(dplyr)
+    gm <- read.csv("gapminder.csv")
+    matrix(rnorm(25), nrow=5)[1:2,3:4]
+    ```
+
+```r
+# Just specify the language after the opening fence.
+library(dplyr)
+gm <- read.csv("gapminder.csv")
+matrix(rnorm(25), nrow=5)[1:2,3:4]
+```
+
+#### E.g., Python code
+
+    ```python
+    # This is a python comment
     s = "Python syntax highlighting"
     print s
     ```
 
 ```python
-# You can only get highlighting with fences
-# Just specify the language after the opening fence.
+# This is a python comment
 s = "Python syntax highlighting"
 print s
 ```
@@ -229,8 +267,16 @@ Three or more hyphens, asterisks, or underscores...
 
 Gives you a horizontal rule.
 
-## Other resources
+## Further resources
 
 - John Gruber's original specification: <http://daringfireball.net/projects/markdown/syntax>
 - GitHub Flavored Markdown (GFM): <https://help.github.com/articles/github-flavored-markdown/>
 - A more extensive cheat sheet: <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>
+- Desktop-based Markdown editors with live previews
+    - Windows: Markdownpad (<http://markdownpad.com/>)
+    - Mac: MacDown (<http://macdown.uranusjr.com/>)
+- Web-based Markdown authoring tools:
+    - Dillinger (<http://dillinger.io/>): connects to Dropbox, Github, Google Docs, and OneDrive.
+    - StackEdit (<https://stackedit.io/>): connects to Dropbox, Google Drive, and can push documents directly to a blog hosted on Blogger, Tumblr, Wordpress, etc.
+    - Authorea (<https://www.authorea.com/>): version-controlled collaborative editor designed for researchers.
+    - Penflip (<https://www.penflip.com/>): a distraction-free in-browser collaborative writing app. Compiles to PDF, HTML, e-book formats, backed by git.
