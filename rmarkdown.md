@@ -69,7 +69,7 @@ The workflow looks something like this.
 2. When you hit the "Knit" button in RStudio, a package called [knitr](http://yihui.name/knitr/) is envoked in the background to go through your RMarkdown document. Every time it encounters an R code chunk, it actually runs that R code in R. Both the code in the chunk and the result of the evaluation are then woven back into a regular markdown document as valid markdown syntax. You never see this intermediate plain markdown file.
 3. A universal text format conversion tool called [Pandoc](http://pandoc.org/) is then called to convert that intermediate Markdown text into some other downstream format (HTML, PDF, DOCX, etc.).
 
-![](img/rmarkdown-workflow.png)
+![](assets/rmarkdown-workflow.png)
 
 ## Inline RMarkdown
 
@@ -108,13 +108,13 @@ The [knitr](http://yihui.name/knitr/) package that runs the RMarkdown document i
 
 ### Without using `kable`
 
-#### Code in the RMarkdown document:
+***Code in the RMarkdown document:***
 
     ```{r, echo=FALSE}
     head(mtcars)
     ```
 
-#### Resulting intermediate Markdown:
+***Resulting intermediate Markdown:***
 
     ```
     ##                    mpg cyl disp  hp drat    wt  qsec vs am gear carb
@@ -127,7 +127,7 @@ The [knitr](http://yihui.name/knitr/) package that runs the RMarkdown document i
     ```
 
 
-#### Rendered output:
+***Rendered output:***
 
 ```
 ##                    mpg cyl disp  hp drat    wt  qsec vs am gear carb
@@ -141,14 +141,14 @@ The [knitr](http://yihui.name/knitr/) package that runs the RMarkdown document i
 
 ### Results using `kable`
 
-#### Code in the RMarkdown document:
+***Code in the RMarkdown document:***
 
     ```{r, echo=FALSE, results='asis'}
     library(knitr)
     kable(head(mtcars))
     ```
 
-#### Resulting intermediate Markdown:
+***Resulting intermediate Markdown:***
 
     |                  |  mpg| cyl| disp|  hp| drat|    wt|  qsec| vs| am| gear| carb|
     |:-----------------|----:|---:|----:|---:|----:|-----:|-----:|--:|--:|----:|----:|
@@ -159,7 +159,7 @@ The [knitr](http://yihui.name/knitr/) package that runs the RMarkdown document i
     |Hornet Sportabout | 18.7|   8|  360| 175| 3.15| 3.440| 17.02|  0|  0|    3|    2|
     |Valiant           | 18.1|   6|  225| 105| 2.76| 3.460| 20.22|  1|  0|    3|    1|
 
-#### Rendered output:
+***Rendered output:***
 
 |                  |  mpg| cyl| disp|  hp| drat|    wt|  qsec| vs| am| gear| carb|
 |:-----------------|----:|---:|----:|---:|----:|-----:|-----:|--:|--:|----:|----:|

@@ -37,21 +37,21 @@ Three ###s results in a sub-sub-heading.
 And so on...
 ```
 
-# Header 1
-
-A single # results in a top-level major heading.
-
-### **Header 2**
-
-Two ##s results in a sub-heading.
-
-### Header 3
-
-Three ###s results in a sub-sub-heading.
-
-#### Header 4
-
-And so on...
+> # Header 1
+> 
+> A single # results in a top-level major heading.
+> 
+> ### **Header 2**
+> 
+> Two ##s results in a sub-heading.
+> 
+> ### Header 3
+> 
+> Three ###s results in a sub-sub-heading.
+> 
+> #### Header 4
+> 
+> And so on...
 
 ## Lists
 
@@ -127,10 +127,10 @@ Bare URLs in angle brackets get turned into links <https://www.google.com>.
 ## Images
 
 ```
-![Caption text (if supported)](img/rmarkdown-workflow.png)
+![Caption text (if supported)](assets/rmarkdown-workflow.png)
 ```
 
-![Caption text (if supported)](img/rmarkdown-workflow.png)
+![Caption text (if supported)](assets/rmarkdown-workflow.png)
 
 
 ## Code and Syntax Highlighting
