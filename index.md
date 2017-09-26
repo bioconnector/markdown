@@ -269,14 +269,14 @@ Gives you a horizontal rule.
 
 ## Further resources
 
-- John Gruber's original specification: <http://daringfireball.net/projects/markdown/syntax>
-- GitHub Flavored Markdown (GFM): <https://help.github.com/articles/github-flavored-markdown/>
+- Markdown reference: <http://commonmark.org/help/>
+- A quick tutorial: <http://commonmark.org/help/tutorial/>
 - A more extensive cheat sheet: <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>
 - Desktop-based Markdown editors with live previews
+    - Mac & Windows: Typora (<https://typora.io/>)
     - Windows: Markdownpad (<http://markdownpad.com/>)
     - Mac: MacDown (<http://macdown.uranusjr.com/>)
 - Web-based Markdown authoring tools:
+    - A minimal in-browser markdown editor: (<http://bioconnector.org/markdown-editor>).
     - Dillinger (<http://dillinger.io/>): connects to Dropbox, Github, Google Docs, and OneDrive.
     - StackEdit (<https://stackedit.io/>): connects to Dropbox, Google Drive, and can push documents directly to a blog hosted on Blogger, Tumblr, Wordpress, etc.
-    - Authorea (<https://www.authorea.com/>): version-controlled collaborative editor designed for researchers.
-    - Penflip (<https://www.penflip.com/>): a distraction-free in-browser collaborative writing app. Compiles to PDF, HTML, e-book formats, backed by git.

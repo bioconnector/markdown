@@ -172,6 +172,6 @@ The [knitr](http://yihui.name/knitr/) package that runs the RMarkdown document i
 
 ## Learn more
 
-- The knitr website (**<http://yihui.name/knitr/>**) has lots of useful reference material about how knitr works, [options](http://yihui.name/knitr/options/), controlling output, [examples](http://yihui.name/knitr/demos/), and more.
-- RMarkdown has come a long way since its original inception. The RMarkdown specification at RStudio (**<http://rmarkdown.rstudio.com/>**) covers all the v2 enhancements to RMarkdown, [RMarkdown basics](http://rmarkdown.rstudio.com/authoring_basics.html) in more detail than covered here, the full [Pandoc Markdown specification](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html) which lets you do more than just regular Markdown, information on [citations and bibliographies](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html), and several [examples](http://rmarkdown.rstudio.com/articles.html) illustrating advanced usage.
-- RStudio's [RMarkdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) and [RMarkdown Reference Sheet](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf).
+- The knitr website (**<http://yihui.name/knitr/>**) has lots of useful reference material about how knitr works, [options](http://yihui.name/knitr/options/), and more.
+- The RMarkdown documentation (**<http://rmarkdown.rstudio.com/>**) has an excellent [getting started guide](http://rmarkdown.rstudio.com/lesson-1.html), a [gallery of demos](http://rmarkdown.rstudio.com/gallery.html), and several [articles](http://rmarkdown.rstudio.com/articles.html) illustrating advanced usage.
+- RStudio's [RMarkdown Cheat Sheet](http://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf) and [RMarkdown Reference Sheet](http://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf).
